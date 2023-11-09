@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include emkan_einvoice *.css
+recursive-include emkan_einvoice *.csv
+recursive-include emkan_einvoice *.html
+recursive-include emkan_einvoice *.ico
+recursive-include emkan_einvoice *.js
+recursive-include emkan_einvoice *.json
+recursive-include emkan_einvoice *.md
+recursive-include emkan_einvoice *.png
+recursive-include emkan_einvoice *.py
+recursive-include emkan_einvoice *.svg
+recursive-include emkan_einvoice *.txt
+recursive-exclude emkan_einvoice *.pyc
