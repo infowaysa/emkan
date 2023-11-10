@@ -12,6 +12,14 @@ fixtures = [
     "Print Format",
     "Role",
     "Workspace",
+    "Custom DocPerm",
+    "Workflow Action Master",
+    "Workflow State",
+    "Workflow Action",
+    "Workflow Action Permitted Role",
+    "Workflow Transition",
+    "Workflow",
+    "Workflow Document State",
     # Add any other DocTypes or records you've customized.
 ]
 
