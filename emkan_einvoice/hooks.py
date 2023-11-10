@@ -10,6 +10,8 @@ app_license = "MIT"
 fixtures = [
     "Custom Field",
     "Print Format",
+    "Role",
+    "Workspace",
     # Add any other DocTypes or records you've customized.
 ]
 
