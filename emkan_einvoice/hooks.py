@@ -7,6 +7,12 @@ app_description = "Emkan Holding E-Invoicing Customizations"
 app_email = "spport@infoway.com.sa"
 app_license = "MIT"
 
+fixtures = [
+    "Custom Field",
+    "Print Format",
+    # Add any other DocTypes or records you've customized.
+]
+
 # Includes in <head>
 # ------------------
 
