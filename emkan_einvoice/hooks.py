@@ -12,7 +12,7 @@ fixtures = [
     "Print Format",
     "Role",
     "Workspace",
-    "Role Permissions Manager",
+    "Role Permissions",
     # Add any other DocTypes or records you've customized.
 ]
 
