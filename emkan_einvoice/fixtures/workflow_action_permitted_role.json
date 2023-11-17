@@ -138,5 +138,45 @@
   "parentfield": "permitted_roles",
   "parenttype": "Workflow Action",
   "role": "Invoice Approver"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Permitted Role",
+  "modified": "2023-11-12 09:10:28.250623",
+  "name": "8983d18af7",
+  "parent": "67660ead7a",
+  "parentfield": "permitted_roles",
+  "parenttype": "Workflow Action",
+  "role": "Invoice Creator"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Permitted Role",
+  "modified": "2023-11-12 09:10:34.366249",
+  "name": "52e88cda5a",
+  "parent": "b7c7fabd45",
+  "parentfield": "permitted_roles",
+  "parenttype": "Workflow Action",
+  "role": "Invoice Approver"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Permitted Role",
+  "modified": "2023-11-14 11:12:37.671680",
+  "name": "1fddb45c95",
+  "parent": "85cdad66ce",
+  "parentfield": "permitted_roles",
+  "parenttype": "Workflow Action",
+  "role": "Invoice Creator"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Permitted Role",
+  "modified": "2023-11-16 23:01:29.345379",
+  "name": "53e83bcb12",
+  "parent": "c6e8767713",
+  "parentfield": "permitted_roles",
+  "parenttype": "Workflow Action",
+  "role": "Invoice Approver"
  }
 ]

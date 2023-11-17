@@ -231,8 +231,8 @@
   "workflow_state": "Draft"
  },
  {
-  "completed_by": null,
-  "completed_by_role": null,
+  "completed_by": "Administrator",
+  "completed_by_role": "Invoice Approver",
   "docstatus": 0,
   "doctype": "Workflow Action",
   "modified": "2023-11-08 07:19:29.141081",
@@ -247,7 +247,7 @@
   ],
   "reference_doctype": "Sales Invoice",
   "reference_name": "ACC-SINV-2023-00007",
-  "status": "Open",
+  "status": "Completed",
   "user": null,
   "workflow_state": "To Approve"
  },
@@ -290,6 +290,90 @@
   "reference_doctype": "Sales Invoice",
   "reference_name": "ACC-SINV-2023-00008",
   "status": "Completed",
+  "user": null,
+  "workflow_state": "To Approve"
+ },
+ {
+  "completed_by": "invoice@infoway.com.sa",
+  "completed_by_role": "Invoice Creator",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2023-11-12 09:10:28.250623",
+  "name": "67660ead7a",
+  "permitted_roles": [
+   {
+    "parent": "67660ead7a",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator"
+   }
+  ],
+  "reference_doctype": "Sales Invoice",
+  "reference_name": "ACC-SINV-2023-00009",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "Invoice Approver",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2023-11-12 09:10:34.366249",
+  "name": "b7c7fabd45",
+  "permitted_roles": [
+   {
+    "parent": "b7c7fabd45",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver"
+   }
+  ],
+  "reference_doctype": "Sales Invoice",
+  "reference_name": "ACC-SINV-2023-00009",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "To Approve"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "Invoice Creator",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2023-11-14 11:12:37.671680",
+  "name": "85cdad66ce",
+  "permitted_roles": [
+   {
+    "parent": "85cdad66ce",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator"
+   }
+  ],
+  "reference_doctype": "Sales Invoice",
+  "reference_name": "ACC-SINV-2023-00010",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2023-11-16 23:01:29.345379",
+  "name": "c6e8767713",
+  "permitted_roles": [
+   {
+    "parent": "c6e8767713",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver"
+   }
+  ],
+  "reference_doctype": "Sales Invoice",
+  "reference_name": "ACC-SINV-2023-00010",
+  "status": "Open",
   "user": null,
   "workflow_state": "To Approve"
  }
