@@ -20,9 +20,6 @@ fixtures = [
     "Workflow Transition",
     "Workflow",
     "Workflow Document State",
-    "Customer",
-    "Sales Invoice",
-    "Sales Invoice Item",
     # Add any other DocTypes or records you've customized.
 ]
 
