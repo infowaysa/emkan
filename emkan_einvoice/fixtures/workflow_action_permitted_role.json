@@ -178,5 +178,25 @@
   "parentfield": "permitted_roles",
   "parenttype": "Workflow Action",
   "role": "Invoice Approver"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Permitted Role",
+  "modified": "2023-11-18 22:43:56.768302",
+  "name": "501f37d771",
+  "parent": "4e799ff69a",
+  "parentfield": "permitted_roles",
+  "parenttype": "Workflow Action",
+  "role": "Invoice Creator"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Permitted Role",
+  "modified": "2023-11-18 22:44:05.673120",
+  "name": "1a4e4fd612",
+  "parent": "b0be0c481f",
+  "parentfield": "permitted_roles",
+  "parenttype": "Workflow Action",
+  "role": "Invoice Approver"
  }
 ]

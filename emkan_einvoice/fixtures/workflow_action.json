@@ -376,5 +376,47 @@
   "status": "Open",
   "user": null,
   "workflow_state": "To Approve"
+ },
+ {
+  "completed_by": "invoice@infoway.com.sa",
+  "completed_by_role": "Invoice Creator",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2023-11-18 22:43:56.768302",
+  "name": "4e799ff69a",
+  "permitted_roles": [
+   {
+    "parent": "4e799ff69a",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator"
+   }
+  ],
+  "reference_doctype": "Sales Invoice",
+  "reference_name": "ACC-SINV-2023-00011",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2023-11-18 22:44:05.673120",
+  "name": "b0be0c481f",
+  "permitted_roles": [
+   {
+    "parent": "b0be0c481f",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver"
+   }
+  ],
+  "reference_doctype": "Sales Invoice",
+  "reference_name": "ACC-SINV-2023-00011",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "To Approve"
  }
 ]
