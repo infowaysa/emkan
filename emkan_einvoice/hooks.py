@@ -8,6 +8,9 @@ app_email = "spport@infoway.com.sa"
 app_license = "MIT"
 
 fixtures = [
+    {"dt": "Property Setter", "filters": [
+        ["doc_type", "in", ["Company", "Customer", "Item", "Sales Invoice"]]
+    ]},
     "Custom Field",
     "Print Format",
     "Role",
