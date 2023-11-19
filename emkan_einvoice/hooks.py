@@ -22,6 +22,7 @@ fixtures = [
     "Workflow Action Permitted Role",
     "Workflow Transition",
     "Workflow",
+    "Notification",
     "Workflow Document State",
     # Add any other DocTypes or records you've customized.
 ]
