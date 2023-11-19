@@ -2,7 +2,7 @@
  {
   "attach_print": 0,
   "channel": "Email",
-  "condition": "doc.company==\"Petroleum Vision Contracting Company\" and doc.workflow_state==\"Pending Approval\"",
+  "condition": "doc.workflow_state==\"Pending Approval\"",
   "custom_company": "Petroleum Vision Contracting Company",
   "date_changed": null,
   "days_in_advance": 0,
@@ -12,23 +12,23 @@
   "enabled": 1,
   "event": "Value Change",
   "is_standard": 0,
-  "message": "<h3>Sales Invoice Approval</h3>\r\n\r\n<p>Greetings,</p>\r\n\r\n<p>Please review the following invoice: <a href=\"https://demo.iwc-lab.com/app/sales-invoice/{{ doc.name }}\">{{ doc.name }}</a>.</p>\r\n\r\n<p>Your Approval is highly appreciated</p>",
+  "message": "<p>Greetings,</p>\r\n\r\n<p>New Invoice has been issued, please find the below details.</p>\r\n\r\n<h4>Details</h4>\r\n\r\n<ul>\r\n<li>Invoice No: <a href=\"https://demo.iwc-lab.com/app/sales-invoice/{{ doc.name }}\">{{ doc.name }}</a>\r\n<li>Customer Name: {{ doc.customer }}\r\n<li>Total Amount: {{ doc.grand_total }}\r\n</ul>\r\n\r\n<p>Your Approval is highly appreciated</p>",
   "method": null,
-  "modified": "2023-11-19 11:17:10.974035",
+  "modified": "2023-11-19 23:02:33.307524",
   "module": null,
   "name": "(Petro-V) Sales Invoice Approval Request",
-  "print_format": null,
+  "print_format": "Petro-V Sales Invoice",
   "property_value": null,
   "recipients": [
    {
     "bcc": null,
-    "cc": "support@infoway.com.sa",
+    "cc": "",
     "condition": "",
     "parent": "(Petro-V) Sales Invoice Approval Request",
     "parentfield": "recipients",
     "parenttype": "Notification",
-    "receiver_by_document_field": "contact_email",
-    "receiver_by_role": ""
+    "receiver_by_document_field": "",
+    "receiver_by_role": "Invoice Approver (Petro-V)"
    }
   ],
   "send_system_notification": 1,
@@ -37,13 +37,13 @@
   "sender_email": "e-invoice@emkanholding.com",
   "set_property_after_alert": null,
   "slack_webhook_url": null,
-  "subject": "(Petro-V) [Approval Request] Your Approval for Sales Invoice No. {{ doc.name }}",
+  "subject": "Sales Invoice Approval Request - {{ doc.name }}",
   "value_changed": "workflow_state"
  },
  {
   "attach_print": 0,
   "channel": "Email",
-  "condition": "doc.company==\"Petroleum Vision Contracting Company\"",
+  "condition": "doc.workflow_state==\"Approved\"",
   "custom_company": "Petroleum Vision Contracting Company",
   "date_changed": null,
   "days_in_advance": 0,
@@ -55,7 +55,7 @@
   "is_standard": 0,
   "message": "<h3>Sales Invoice has been Approved</h3>\r\n\r\n<p>Greetings,</p>\r\n\r\n<p>The following invoice: <a href=\"https://demo.iwc-lab.com/app/sales-invoice/{{ doc.name }}\">{{ doc.name }}</a> has been approved.</p>\r\n\r\n<p>Please print the Invoice and share it with the respective customer.</p>",
   "method": null,
-  "modified": "2023-11-19 09:16:48.029462",
+  "modified": "2023-11-19 22:15:37.606157",
   "module": null,
   "name": "Petro-V Sales Invoice Approved",
   "print_format": null,
@@ -63,12 +63,12 @@
   "recipients": [
    {
     "bcc": null,
-    "cc": "support@infoway.com.sa",
-    "condition": "doc.workflow_state==\"Approved\"",
+    "cc": "ali.aljubaily@infoway.com.sa",
+    "condition": null,
     "parent": "Petro-V Sales Invoice Approved",
     "parentfield": "recipients",
     "parenttype": "Notification",
-    "receiver_by_document_field": "contact_email",
+    "receiver_by_document_field": "owner",
     "receiver_by_role": null
    }
   ],
@@ -78,7 +78,7 @@
   "sender_email": "e-invoice@emkanholding.com",
   "set_property_after_alert": "",
   "slack_webhook_url": null,
-  "subject": "(Petro-V) Sales Invoice No {{ doc.name }} has been Approved",
+  "subject": "Sales Invoice No {{ doc.name }} has been Approved",
   "value_changed": "workflow_state"
  },
  {
@@ -110,7 +110,7 @@
     "parentfield": "recipients",
     "parenttype": "Notification",
     "receiver_by_document_field": null,
-    "receiver_by_role": "Invoice Approver"
+    "receiver_by_role": "Invoice Approver (Petro-V)"
    }
   ],
   "send_system_notification": 1,

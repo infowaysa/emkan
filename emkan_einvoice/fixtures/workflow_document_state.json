@@ -1,6 +1,6 @@
 [
  {
-  "allow_edit": "Invoice Creator",
+  "allow_edit": "Invoice Creator (Petro-V)",
   "doc_status": "0",
   "docstatus": 0,
   "doctype": "Workflow Document State",
@@ -17,7 +17,7 @@
   "update_value": null
  },
  {
-  "allow_edit": "Invoice Approver",
+  "allow_edit": "Invoice Approver (Petro-V)",
   "doc_status": "0",
   "docstatus": 0,
   "doctype": "Workflow Document State",
@@ -34,7 +34,7 @@
   "update_value": null
  },
  {
-  "allow_edit": "Invoice Approver",
+  "allow_edit": "Invoice Approver (Petro-V)",
   "doc_status": "1",
   "docstatus": 0,
   "doctype": "Workflow Document State",
@@ -51,7 +51,7 @@
   "update_value": null
  },
  {
-  "allow_edit": "Invoice Approver",
+  "allow_edit": "Invoice Approver (Petro-V)",
   "doc_status": "0",
   "docstatus": 0,
   "doctype": "Workflow Document State",
