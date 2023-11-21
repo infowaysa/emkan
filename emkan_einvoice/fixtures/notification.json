@@ -120,7 +120,7 @@
     "parentfield": "recipients",
     "parenttype": "Notification",
     "receiver_by_document_field": "",
-    "receiver_by_role": "Invoice Approver (Petro-V)"
+    "receiver_by_role": "Invoice Approver"
    }
   ],
   "send_system_notification": 1,
@@ -147,7 +147,7 @@
   "is_standard": 0,
   "message": "<h3>Sales Invoice has been Approved</h3>\r\n\r\n<p>Greetings,</p>\r\n\r\n<p>The following invoice: <a href=\"https://demo.iwc-lab.com/app/sales-invoice/{{ doc.name }}\">{{ doc.name }}</a> has been approved.</p>\r\n\r\n<p>Please print the Invoice and share it with the respective customer.</p>",
   "method": null,
-  "modified": "2023-11-19 22:15:37.606157",
+  "modified": "2023-11-21 17:53:34.151908",
   "module": null,
   "name": "Petro-V Sales Invoice Approved",
   "print_format": null,
@@ -155,7 +155,7 @@
   "recipients": [
    {
     "bcc": null,
-    "cc": "ali.aljubaily@infoway.com.sa",
+    "cc": "",
     "condition": null,
     "parent": "Petro-V Sales Invoice Approved",
     "parentfield": "recipients",
@@ -171,47 +171,6 @@
   "set_property_after_alert": "",
   "slack_webhook_url": null,
   "subject": "Sales Invoice No {{ doc.name }} has been Approved",
-  "value_changed": "workflow_state"
- },
- {
-  "attach_print": 0,
-  "channel": "Email",
-  "condition": "doc.workflow_state==\"Pending Approval\"",
-  "custom_company": "Construction Pillars Company",
-  "date_changed": null,
-  "days_in_advance": 0,
-  "docstatus": 0,
-  "doctype": "Notification",
-  "document_type": "Sales Invoice",
-  "enabled": 1,
-  "event": "Value Change",
-  "is_standard": 0,
-  "message": "<p>Greetings,</p>\r\n\r\n<p>New Invoice has been issued, please find the below details.</p>\r\n\r\n<h4>Details</h4>\r\n\r\n<ul>\r\n<li>Invoice No: <a href=\"https://demo.iwc-lab.com/app/sales-invoice/{{ doc.name }}\">{{ doc.name }}</a>\r\n<li>Customer Name: {{ doc.customer }}\r\n<li>Total Amount: {{ doc.grand_total }}\r\n</ul>\r\n\r\n<p>Your Approval is highly appreciated</p>",
-  "method": null,
-  "modified": "2023-11-20 16:05:27.953071",
-  "module": null,
-  "name": "Sales Invoice Approval Request - {{ doc.name }}",
-  "print_format": "Petro-V Sales Invoice",
-  "property_value": null,
-  "recipients": [
-   {
-    "bcc": null,
-    "cc": "",
-    "condition": "",
-    "parent": "Sales Invoice Approval Request - {{ doc.name }}",
-    "parentfield": "recipients",
-    "parenttype": "Notification",
-    "receiver_by_document_field": "",
-    "receiver_by_role": "Invoice Approver (CPC)"
-   }
-  ],
-  "send_system_notification": 1,
-  "send_to_all_assignees": 0,
-  "sender": "(Emkan) e-Invoice",
-  "sender_email": "e-invoice@emkanholding.com",
-  "set_property_after_alert": null,
-  "slack_webhook_url": null,
-  "subject": "Sales Invoice Approval Request - {{ doc.name }}",
   "value_changed": "workflow_state"
  }
 ]

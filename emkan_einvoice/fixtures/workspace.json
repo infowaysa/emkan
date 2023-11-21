@@ -12860,7 +12860,7 @@
     "parent": "Invoice Workspace",
     "parentfield": "roles",
     "parenttype": "Workspace",
-    "role": "Invoice Creator (Petro-V)"
+    "role": "Invoice Creator"
    },
    {
     "parent": "Invoice Workspace",
@@ -12872,7 +12872,7 @@
     "parent": "Invoice Workspace",
     "parentfield": "roles",
     "parenttype": "Workspace",
-    "role": "Invoice Approver (Petro-V)"
+    "role": "Invoice Approver"
    }
   ],
   "sequence_id": 2.1,
