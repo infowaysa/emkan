@@ -4,9 +4,57 @@
   "completed_by_role": "Invoice Creator (Petro-V)",
   "docstatus": 0,
   "doctype": "Workflow Action",
+  "modified": "2023-11-19 23:16:14.883054",
+  "name": "8f82481f66",
+  "permitted_roles": [
+   {
+    "parent": "8f82481f66",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   }
+  ],
+  "reference_doctype": "Sales Invoice",
+  "reference_name": "ACC-SINV-2023-00042",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2023-11-19 23:16:22.141611",
+  "name": "4c0a184120",
+  "permitted_roles": [
+   {
+    "parent": "4c0a184120",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   }
+  ],
+  "reference_doctype": "Sales Invoice",
+  "reference_name": "ACC-SINV-2023-00042",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Pending Approval"
+ },
+ {
+  "completed_by": "invoice@infoway.com.sa",
+  "completed_by_role": "Invoice Creator (Petro-V)",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
   "modified": "2023-11-19 05:42:57.984654",
   "name": "31338a4640",
   "permitted_roles": [
+   {
+    "parent": "31338a4640",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "31338a4640",
     "parentfield": "permitted_roles",
@@ -33,6 +81,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "87403d33ee",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -49,6 +103,12 @@
   "modified": "2023-11-19 06:18:59.908886",
   "name": "9b761c1443",
   "permitted_roles": [
+   {
+    "parent": "9b761c1443",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "9b761c1443",
     "parentfield": "permitted_roles",
@@ -75,6 +135,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "f35ed50c1f",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -91,6 +157,12 @@
   "modified": "2023-11-19 06:48:37.875753",
   "name": "a447f6628c",
   "permitted_roles": [
+   {
+    "parent": "a447f6628c",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "a447f6628c",
     "parentfield": "permitted_roles",
@@ -117,6 +189,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "667b4d4421",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -133,6 +211,12 @@
   "modified": "2023-11-19 07:20:34.518185",
   "name": "b46f0ab6b1",
   "permitted_roles": [
+   {
+    "parent": "b46f0ab6b1",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "b46f0ab6b1",
     "parentfield": "permitted_roles",
@@ -159,6 +243,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "1bf3b70dde",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -175,6 +265,12 @@
   "modified": "2023-11-19 07:26:57.382223",
   "name": "b78ddf134e",
   "permitted_roles": [
+   {
+    "parent": "b78ddf134e",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "b78ddf134e",
     "parentfield": "permitted_roles",
@@ -201,6 +297,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "149f78f8f7",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -217,6 +319,12 @@
   "modified": "2023-11-19 07:29:08.689221",
   "name": "1dca4c23c3",
   "permitted_roles": [
+   {
+    "parent": "1dca4c23c3",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "1dca4c23c3",
     "parentfield": "permitted_roles",
@@ -243,6 +351,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "728584650b",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -259,6 +373,12 @@
   "modified": "2023-11-19 07:36:26.587949",
   "name": "52233bf6e8",
   "permitted_roles": [
+   {
+    "parent": "52233bf6e8",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "52233bf6e8",
     "parentfield": "permitted_roles",
@@ -285,6 +405,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "5fd37f7f80",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -301,6 +427,12 @@
   "modified": "2023-11-19 07:50:09.216287",
   "name": "c43a67f5b4",
   "permitted_roles": [
+   {
+    "parent": "c43a67f5b4",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "c43a67f5b4",
     "parentfield": "permitted_roles",
@@ -327,6 +459,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "af7655b63e",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -343,6 +481,12 @@
   "modified": "2023-11-19 07:57:10.535179",
   "name": "3f6867e2fc",
   "permitted_roles": [
+   {
+    "parent": "3f6867e2fc",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "3f6867e2fc",
     "parentfield": "permitted_roles",
@@ -369,6 +513,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "e846f7f980",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -385,6 +535,12 @@
   "modified": "2023-11-19 08:17:05.478516",
   "name": "343e7a492a",
   "permitted_roles": [
+   {
+    "parent": "343e7a492a",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "343e7a492a",
     "parentfield": "permitted_roles",
@@ -411,6 +567,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "9a7d12548f",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -427,6 +589,12 @@
   "modified": "2023-11-19 08:23:40.748470",
   "name": "07ade49483",
   "permitted_roles": [
+   {
+    "parent": "07ade49483",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "07ade49483",
     "parentfield": "permitted_roles",
@@ -453,6 +621,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "e46972c7f2",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -469,6 +643,12 @@
   "modified": "2023-11-19 08:28:55.238252",
   "name": "ad372a4f95",
   "permitted_roles": [
+   {
+    "parent": "ad372a4f95",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "ad372a4f95",
     "parentfield": "permitted_roles",
@@ -495,6 +675,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "4089df3dfa",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -511,6 +697,12 @@
   "modified": "2023-11-19 08:37:24.529926",
   "name": "5c427f23a9",
   "permitted_roles": [
+   {
+    "parent": "5c427f23a9",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "5c427f23a9",
     "parentfield": "permitted_roles",
@@ -537,6 +729,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "75846ecc9c",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -553,6 +751,12 @@
   "modified": "2023-11-19 08:46:13.655564",
   "name": "181662fe33",
   "permitted_roles": [
+   {
+    "parent": "181662fe33",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "181662fe33",
     "parentfield": "permitted_roles",
@@ -579,6 +783,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "b8c5717ca8",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -595,6 +805,12 @@
   "modified": "2023-11-19 08:50:20.636209",
   "name": "441506621c",
   "permitted_roles": [
+   {
+    "parent": "441506621c",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "441506621c",
     "parentfield": "permitted_roles",
@@ -621,6 +837,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "7a531e1e0a",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -637,6 +859,12 @@
   "modified": "2023-11-19 09:01:44.429732",
   "name": "b3883bba0c",
   "permitted_roles": [
+   {
+    "parent": "b3883bba0c",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "b3883bba0c",
     "parentfield": "permitted_roles",
@@ -663,6 +891,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "13d9e17375",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -679,6 +913,12 @@
   "modified": "2023-11-19 09:04:38.847472",
   "name": "9767c8c9b5",
   "permitted_roles": [
+   {
+    "parent": "9767c8c9b5",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "9767c8c9b5",
     "parentfield": "permitted_roles",
@@ -705,6 +945,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "b46b487838",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -721,6 +967,12 @@
   "modified": "2023-11-19 09:10:29.043772",
   "name": "2fc4f5ef26",
   "permitted_roles": [
+   {
+    "parent": "2fc4f5ef26",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "2fc4f5ef26",
     "parentfield": "permitted_roles",
@@ -747,6 +999,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "2d1195c1ea",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -763,6 +1021,12 @@
   "modified": "2023-11-19 09:26:49.263273",
   "name": "5e4c41dd87",
   "permitted_roles": [
+   {
+    "parent": "5e4c41dd87",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "5e4c41dd87",
     "parentfield": "permitted_roles",
@@ -789,6 +1053,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "eafefae05d",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -805,6 +1075,12 @@
   "modified": "2023-11-19 11:41:44.143724",
   "name": "cd0c480eb9",
   "permitted_roles": [
+   {
+    "parent": "cd0c480eb9",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   },
    {
     "parent": "cd0c480eb9",
     "parentfield": "permitted_roles",
@@ -831,6 +1107,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "b28839c045",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -847,6 +1129,12 @@
   "modified": "2023-11-19 16:32:20.983056",
   "name": "6348794075",
   "permitted_roles": [
+   {
+    "parent": "6348794075",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   },
    {
     "parent": "6348794075",
     "parentfield": "permitted_roles",
@@ -873,6 +1161,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "c9e0d3e8a5",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -889,6 +1183,12 @@
   "modified": "2023-11-19 21:01:30.581646",
   "name": "78f7c4748f",
   "permitted_roles": [
+   {
+    "parent": "78f7c4748f",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "78f7c4748f",
     "parentfield": "permitted_roles",
@@ -915,6 +1215,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "7d227ce53a",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -931,6 +1237,12 @@
   "modified": "2023-11-19 21:12:28.785855",
   "name": "6047d6cc71",
   "permitted_roles": [
+   {
+    "parent": "6047d6cc71",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "6047d6cc71",
     "parentfield": "permitted_roles",
@@ -957,6 +1269,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "9cc151c9f7",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -973,6 +1291,12 @@
   "modified": "2023-11-19 21:16:51.595385",
   "name": "406077c9c0",
   "permitted_roles": [
+   {
+    "parent": "406077c9c0",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "406077c9c0",
     "parentfield": "permitted_roles",
@@ -999,6 +1323,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "9ead1c7d41",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -1015,6 +1345,18 @@
   "modified": "2023-10-31 17:55:44.429475",
   "name": "4cce799471",
   "permitted_roles": [
+   {
+    "parent": "4cce799471",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "4cce799471",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   },
    {
     "parent": "4cce799471",
     "parentfield": "permitted_roles",
@@ -1053,6 +1395,18 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "9e203093c9",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "9e203093c9",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -1069,6 +1423,18 @@
   "modified": "2023-10-31 17:56:10.226162",
   "name": "a3964e395c",
   "permitted_roles": [
+   {
+    "parent": "a3964e395c",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "a3964e395c",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "a3964e395c",
     "parentfield": "permitted_roles",
@@ -1107,6 +1473,18 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "afe05f0dbd",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "afe05f0dbd",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -1123,6 +1501,18 @@
   "modified": "2023-11-02 20:50:16.269850",
   "name": "b6bab0b58e",
   "permitted_roles": [
+   {
+    "parent": "b6bab0b58e",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "b6bab0b58e",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   },
    {
     "parent": "b6bab0b58e",
     "parentfield": "permitted_roles",
@@ -1161,6 +1551,18 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "998ed35fae",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "998ed35fae",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -1177,6 +1579,18 @@
   "modified": "2023-11-02 21:01:15.787879",
   "name": "e739795917",
   "permitted_roles": [
+   {
+    "parent": "e739795917",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "e739795917",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "e739795917",
     "parentfield": "permitted_roles",
@@ -1215,6 +1629,18 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "3aca136af7",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "3aca136af7",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -1231,6 +1657,18 @@
   "modified": "2023-11-02 21:06:30.697295",
   "name": "8d55f36ba9",
   "permitted_roles": [
+   {
+    "parent": "8d55f36ba9",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "8d55f36ba9",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   },
    {
     "parent": "8d55f36ba9",
     "parentfield": "permitted_roles",
@@ -1269,6 +1707,18 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "b3e59bc046",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "b3e59bc046",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -1285,6 +1735,18 @@
   "modified": "2023-11-08 07:19:19.083175",
   "name": "026ac1a9bb",
   "permitted_roles": [
+   {
+    "parent": "026ac1a9bb",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "026ac1a9bb",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "026ac1a9bb",
     "parentfield": "permitted_roles",
@@ -1323,6 +1785,18 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "80ecd243a7",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "80ecd243a7",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -1339,6 +1813,18 @@
   "modified": "2023-11-08 07:21:47.776799",
   "name": "47448f795c",
   "permitted_roles": [
+   {
+    "parent": "47448f795c",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "47448f795c",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "47448f795c",
     "parentfield": "permitted_roles",
@@ -1377,6 +1863,18 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "1ee968c038",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "1ee968c038",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -1393,6 +1891,18 @@
   "modified": "2023-11-12 09:10:28.250623",
   "name": "67660ead7a",
   "permitted_roles": [
+   {
+    "parent": "67660ead7a",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "67660ead7a",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "67660ead7a",
     "parentfield": "permitted_roles",
@@ -1431,6 +1941,18 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "b7c7fabd45",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "b7c7fabd45",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -1447,6 +1969,18 @@
   "modified": "2023-11-14 11:12:37.671680",
   "name": "85cdad66ce",
   "permitted_roles": [
+   {
+    "parent": "85cdad66ce",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "85cdad66ce",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "85cdad66ce",
     "parentfield": "permitted_roles",
@@ -1485,6 +2019,18 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "c6e8767713",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "c6e8767713",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -1501,6 +2047,18 @@
   "modified": "2023-11-18 22:43:56.768302",
   "name": "4e799ff69a",
   "permitted_roles": [
+   {
+    "parent": "4e799ff69a",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
+   {
+    "parent": "4e799ff69a",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "4e799ff69a",
     "parentfield": "permitted_roles",
@@ -1539,6 +2097,18 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "b0be0c481f",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "b0be0c481f",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -1555,6 +2125,12 @@
   "modified": "2023-11-19 22:16:59.640745",
   "name": "b04dafd4a5",
   "permitted_roles": [
+   {
+    "parent": "b04dafd4a5",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "b04dafd4a5",
     "parentfield": "permitted_roles",
@@ -1581,6 +2157,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "9f0bd85433",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -1597,6 +2179,12 @@
   "modified": "2023-11-19 22:53:31.057747",
   "name": "67d2585be1",
   "permitted_roles": [
+   {
+    "parent": "67d2585be1",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "67d2585be1",
     "parentfield": "permitted_roles",
@@ -1623,6 +2211,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "037eab08fc",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -1639,6 +2233,12 @@
   "modified": "2023-11-19 22:55:07.802404",
   "name": "8a828f5fad",
   "permitted_roles": [
+   {
+    "parent": "8a828f5fad",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   },
    {
     "parent": "8a828f5fad",
     "parentfield": "permitted_roles",
@@ -1665,6 +2265,12 @@
     "parentfield": "permitted_roles",
     "parenttype": "Workflow Action",
     "role": "Invoice Approver (Petro-V)"
+   },
+   {
+    "parent": "0b4c38c9cd",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
    }
   ],
   "reference_doctype": "Sales Invoice",
@@ -1672,5 +2278,68 @@
   "status": "Open",
   "user": null,
   "workflow_state": "Pending Approval"
+ },
+ {
+  "completed_by": "invoice@infoway.com.sa",
+  "completed_by_role": "Invoice Creator (Petro-V)",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2023-11-20 12:41:58.149792",
+  "name": "da4e91e662",
+  "permitted_roles": [
+   {
+    "parent": "da4e91e662",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   }
+  ],
+  "reference_doctype": "Sales Invoice",
+  "reference_name": "ACC-SINV-2023-00043",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "ali.aljubaily@infoway.com.sa",
+  "completed_by_role": "Invoice Approver (Petro-V)",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2023-11-20 12:42:00.477118",
+  "name": "e3f198d510",
+  "permitted_roles": [
+   {
+    "parent": "e3f198d510",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver (Petro-V)"
+   }
+  ],
+  "reference_doctype": "Sales Invoice",
+  "reference_name": "ACC-SINV-2023-00043",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Pending Approval"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2023-11-21 02:43:39.168791",
+  "name": "4481f3663f",
+  "permitted_roles": [
+   {
+    "parent": "4481f3663f",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator (Petro-V)"
+   }
+  ],
+  "reference_doctype": "Sales Invoice",
+  "reference_name": "ACC-SINV-2023-00044",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Draft"
  }
 ]
