@@ -2275,5 +2275,47 @@
   "status": "Completed",
   "user": null,
   "workflow_state": "Pending Approval"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "Invoice Creator",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2023-11-21 20:34:29.354729",
+  "name": "60111bbf7e",
+  "permitted_roles": [
+   {
+    "parent": "60111bbf7e",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Creator"
+   }
+  ],
+  "reference_doctype": "Sales Invoice",
+  "reference_name": "ACC-SINV-2023-00048",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Draft"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "Invoice Approver",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2023-11-21 20:34:54.121033",
+  "name": "46ee89b04b",
+  "permitted_roles": [
+   {
+    "parent": "46ee89b04b",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "Invoice Approver"
+   }
+  ],
+  "reference_doctype": "Sales Invoice",
+  "reference_name": "ACC-SINV-2023-00048",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Pending Approval"
  }
 ]
