@@ -3405,8 +3405,8 @@
   "workflow_state": "To Approve"
  },
  {
-  "completed_by": null,
-  "completed_by_role": null,
+  "completed_by": "Administrator",
+  "completed_by_role": "Invoice Creator",
   "docstatus": 0,
   "doctype": "Workflow Action",
   "modified": "2023-11-02 20:57:39.061071",
@@ -3511,13 +3511,13 @@
   ],
   "reference_doctype": "Sales Invoice",
   "reference_name": "ACC-SINV-2023-00003",
-  "status": "Open",
+  "status": "Completed",
   "user": null,
   "workflow_state": "Draft"
  },
  {
-  "completed_by": null,
-  "completed_by_role": null,
+  "completed_by": "Administrator",
+  "completed_by_role": "Invoice Creator",
   "docstatus": 0,
   "doctype": "Workflow Action",
   "modified": "2023-11-02 21:01:15.787879",
@@ -3622,7 +3622,7 @@
   ],
   "reference_doctype": "Sales Invoice",
   "reference_name": "ACC-SINV-2023-00004",
-  "status": "Open",
+  "status": "Completed",
   "user": null,
   "workflow_state": "Draft"
  },
@@ -3849,8 +3849,8 @@
   "workflow_state": "To Approve"
  },
  {
-  "completed_by": null,
-  "completed_by_role": null,
+  "completed_by": "Administrator",
+  "completed_by_role": "Invoice Creator",
   "docstatus": 0,
   "doctype": "Workflow Action",
   "modified": "2023-11-02 21:08:58.452954",
@@ -3955,7 +3955,7 @@
   ],
   "reference_doctype": "Sales Invoice",
   "reference_name": "ACC-SINV-2023-00006",
-  "status": "Open",
+  "status": "Completed",
   "user": null,
   "workflow_state": "Draft"
  },
