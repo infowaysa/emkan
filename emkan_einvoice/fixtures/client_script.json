@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Sales Invoice",
+  "enabled": 1,
+  "modified": "2023-11-25 03:47:08.986741",
+  "module": null,
+  "name": "VAT Calculation in Line Items",
+  "script": "frappe.ui.form.on(\"Sales Invoice Item\", {\r\n    qty: function(frm, cdt, cdn) {\r\n        calculateCustomTaxAndTotal(frm, cdt, cdn);\r\n    },\r\n    rate: function(frm, cdt, cdn) {\r\n        calculateCustomTaxAndTotal(frm, cdt, cdn);\r\n    }\r\n});\r\n\r\nfrappe.ui.form.on(\"Sales Invoice Item\", {\r\n    amount: function(frm, cdt, cdn) {\r\n        calculateCustomTaxAndTotal(frm, cdt, cdn);\r\n    }\r\n});\r\n\r\nfunction calculateCustomTaxAndTotal(frm, cdt, cdn) {\r\n    var doc = locals[cdt][cdn];\r\n    var amount = doc.amount;\r\n    var qty = doc.qty;\r\n    var rate = doc.rate;\r\n    var customTax = flt(qty * rate * 0.15);\r\n    var customTotalWithTax = flt((qty * rate) + customTax);\r\n    \r\n    frappe.model.set_value(cdt, cdn, \"custom_tax\", customTax);\r\n    frappe.model.set_value(cdt, cdn, \"custom_total_with_tax\", customTotalWithTax);\r\n}",
+  "view": "Form"
+ }
+]

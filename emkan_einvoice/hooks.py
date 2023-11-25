@@ -23,6 +23,7 @@ fixtures = [
     "Workflow Transition",
     "Workflow",
     "Workflow Document State",
+    "Client Script",
     # Add any other DocTypes or records you've customized.
 ]
 
